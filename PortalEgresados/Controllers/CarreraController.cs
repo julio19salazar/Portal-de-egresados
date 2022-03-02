@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace PortalEgresados.Controllers
 {
+    //nombre corregido
     public class CarreraController : Controller
     {
         public IActionResult Index()
