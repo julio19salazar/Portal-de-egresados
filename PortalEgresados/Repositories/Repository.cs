@@ -8,7 +8,7 @@ namespace PortalEgresados.Repositories
 {
     public class Repository<T> where T : class
     {
-        public DbContext Context { get; set; }
+        public virtual DbContext Context { get; set; }
 
         public Repository(DbContext context)
         {
